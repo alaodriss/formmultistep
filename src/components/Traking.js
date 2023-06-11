@@ -3,17 +3,15 @@ import styled from "styled-components";
 import bgTrk from "../assets/images/bg-sidebar-desktop.svg";
 
 const TrK = styled.div`
-  .tracking {
-    position: relative;
-  }
+  position: relative;
   .steps {
     position: absolute;
-    top: 10%;
-    left: 25%;
+    top: 3%;
+    left: 9%;
   }
   .step1 {
     display: flex;
-    margin: 1rem -4rem;
+    margin: 1.4rem 0px;
   }
 
   .icon {
@@ -26,8 +24,8 @@ const TrK = styled.div`
     height: 30px;
     .num {
       position: absolute;
-      left: 36%;
-      top: -36%;
+      left: 33%;
+      top: 17%;
       font-family: system-ui;
       color: royalblue;
     }
@@ -45,6 +43,7 @@ const TrK = styled.div`
       font-family: system-ui;
       line-height: 0.1;
       text-transform: uppercase;
+      padding: 10px 0;
     }
   }
 `;
